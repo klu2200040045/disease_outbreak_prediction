@@ -37,10 +37,6 @@ SVM is effective for high-dimensional datasets and works well when data is **lin
 | SMOTE        | 74%      |
 | SMOTETomek   | 82%      |
 
-## Next Steps
-- Try **Decision Tree, Random Forest, or XGBoost** for further improvement.
-- Perform **feature selection** to remove less important attributes.
-- Experiment with **hyperparameter tuning** to optimize model performance.
 
 ## Conclusion
 By applying **different data resampling techniques**, we significantly improved model accuracy from **75% to 81%**. **SMOTETomek** proved to be the most effective, as it balanced the dataset while preserving meaningful patterns.
