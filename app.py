@@ -10,8 +10,8 @@ st.set_page_config(
 )
 
 # Load Models
-diabetes_model = pickle.load(open(r"C:\Users\reddy\Downloads\2.Prediction of Disease Outbreaks\training_models\diabetes_model2.pkl", "rb"))
-heart_model = pickle.load(open(r"C:\Users\reddy\Downloads\2.Prediction of Disease Outbreaks\training_models\heart_model.pkl", "rb"))
+diabetes_model = pickle.load(open(r"diabetes_model2.pkl", "rb"))
+heart_model = pickle.load(open(r"heart_model.pkl", "rb"))
 
 # Sidebar Menu
 with st.sidebar:
